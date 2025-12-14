@@ -7,30 +7,17 @@
   "version": "1.0.0",
   "templates": [
     {
-      "id": "convertx",
-      "name": "ConvertX",
-      "description": "File converter. Supports 1000+ formats.",
+      "id": "pangolin-newt",
+      "name": "Newt",
+      "description": "Pangolin's Secure Tunnel",
       "version": "1.0.0",
-      "author": "rjcndev",
-      "compose_url": "https://registry.getarcane.app/templates/convertx/compose.yml",
-      "env_url": "https://registry.getarcane.app/templates/convertx/.env.example",
-      "documentation_url": "https://github.com/getarcaneapp/templates/tree/main/templates/convertx",
+      "author": "raeven",
+      "compose_url": "https://raw.githubusercontent.com/raevendev/arcane-templates/main/apps/pangolin-newt/docker-compose.yml",
+      "env_url": "https://raw.githubusercontent.com/raevendev/arcane-templates/main/apps/pangolin-newt/.env.example",
+      "documentation_url": "https://raw.githubusercontent.com/raevendev/arcane-templates/main/apps/pangolin-newt/README.md",
       "tags": [
-        "Tools",
-        "Converter"
-      ]
-    },
-    {
-      "id": "flyimg",
-      "name": "Flyimg",
-      "description": "App that resizes and crops images on the fly.",
-      "version": "1.0.0",
-      "author": "rjcndev",
-      "compose_url": "https://registry.getarcane.app/templates/flyimg/compose.yml",
-      "env_url": "https://registry.getarcane.app/templates/flyimg/.env.example",
-      "documentation_url": "https://github.com/getarcaneapp/templates/tree/main/templates/flyimg",
-      "tags": [
-        "Tools"
+        "Reverse-Proxy",
+        "Pangolin"
       ]
     }
   ]
