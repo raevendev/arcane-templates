@@ -1,0 +1,37 @@
+ {
+  "$schema": "https://registry.getarcane.app/schema.json",
+  "name": "Raeven Templates",
+  "description": "Docker Compose Templates",
+  "author": "raeven",
+  "url": "https://github.com/raevendev/arcane-templates",
+  "version": "1.0.0",
+  "templates": [
+    {
+      "id": "convertx",
+      "name": "ConvertX",
+      "description": "File converter. Supports 1000+ formats.",
+      "version": "1.0.0",
+      "author": "rjcndev",
+      "compose_url": "https://registry.getarcane.app/templates/convertx/compose.yml",
+      "env_url": "https://registry.getarcane.app/templates/convertx/.env.example",
+      "documentation_url": "https://github.com/getarcaneapp/templates/tree/main/templates/convertx",
+      "tags": [
+        "Tools",
+        "Converter"
+      ]
+    },
+    {
+      "id": "flyimg",
+      "name": "Flyimg",
+      "description": "App that resizes and crops images on the fly.",
+      "version": "1.0.0",
+      "author": "rjcndev",
+      "compose_url": "https://registry.getarcane.app/templates/flyimg/compose.yml",
+      "env_url": "https://registry.getarcane.app/templates/flyimg/.env.example",
+      "documentation_url": "https://github.com/getarcaneapp/templates/tree/main/templates/flyimg",
+      "tags": [
+        "Tools"
+      ]
+    }
+  ]
+}
